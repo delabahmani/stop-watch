@@ -47,12 +47,14 @@ p {
 #button-start, #button-reset, #button-stop {
     background: #D4759c;
     color: white;
-    border: 1px solid white;
+    border: 2px solid white;
     cursor: pointer;
     font-size: 45px; 
     margin: 0 20px;
     margin-top: 80px;
-    padding: 8px;
+    padding: 10px;
+    border-radius: 30px;
+
 }
 
 #button-start:hover {
@@ -124,7 +126,7 @@ p {
         margin-top: 70px;
     }
     body {
-        margin-top: 150px;
+        margin-top: 115px;
     }
     .stop-watch {
         margin-top: 30px;
